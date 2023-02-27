@@ -1,5 +1,5 @@
 .html, body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
 }
@@ -12,21 +12,34 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.slide .image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.h2 {
+    color: rgb(70, 70, 70);
 }
-
 
 .slide .image-date {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     text-align: center;
     z-index: 100;
-    width: 100%;
+}
+
+.button {
+    display: inline-table;
+    padding: 50 50px;
+    border-radius: 12px;
+    color: #ffffff;
+    background: #ffffff00;
+    text-decoration: double;
+    font-size: 190%;
+    margin-top: 25px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #ff00003a;
 }
 
 .image-date .span .text {
@@ -76,4 +89,3 @@
     display: inline-block;
     text-decoration: none;
 }
-
